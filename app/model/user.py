@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import Column
+from sqlalchemy import ForeignKey;
 from sqlalchemy import String, Integer, LargeBinary
 from sqlalchemy.dialects.postgresql import JSONB
+from sqlalchemy.orm import relationship
 
 from app.model import Base
 from app.config import UUID_LEN
@@ -16,6 +18,10 @@ class User(Base):
     password = Column(String(80), nullable=False)
     info = Column(JSONB, nullable=True)
     token = Column(String(255), nullable=False)
+    tenant_id = Column(Integer, ForeignKey('tenant.id'))
+    role = Column(String(20), nullable=False)
+
+    tenant_id = relationship("Tenant")
 
     # intentionally assigned for user related service such as resetting password: kind of internal user secret key
     sid = Column(String(UUID_LEN), nullable=False)
@@ -23,6 +29,7 @@ class User(Base):
     def __repr__(self):
         return "<User(name='%s', email='%s', token='%s', info='%s')>" % \
             (self.username, self.email, self.token, self.info)
+
 
     @classmethod
     def get_id(cls):
