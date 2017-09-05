@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import Column
-from sqlalchemy import ForeignKey;
+from sqlalchemy import ForeignKey, ForeignKeyConstraint;
 from sqlalchemy import String, Integer, LargeBinary
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import relationship
@@ -18,10 +18,10 @@ class User(Base):
     password = Column(String(80), nullable=False)
     info = Column(JSONB, nullable=True)
     token = Column(String(255), nullable=False)
-    tenant_id = Column(Integer, ForeignKey('tenant.id'))
+    tenant_id = Column(Integer, nullable=False)
     role = Column(String(20), nullable=False)
 
-    tenant_id = relationship("Tenant")
+    ForeignKeyConstraint(['tenant_id'], ['Tenant.tenant_id'])
 
     # intentionally assigned for user related service such as resetting password: kind of internal user secret key
     sid = Column(String(UUID_LEN), nullable=False)
