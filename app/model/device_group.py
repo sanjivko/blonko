@@ -1,15 +1,16 @@
-from sqlalchemy import Column, ForeignKeyConstraint
+# -*- coding: utf-8 -*-
+
+from sqlalchemy import Column, ForeignKey
 from sqlalchemy import String, Integer, LargeBinary
 
 from app.model import Base
-from app.config import UUID_LEN
+from .tenant import  Tenant
 
 
 class DeviceGroup(Base):
-
     group_id = Column(Integer, primary_key=True, nullable=False)
     group_name = Column(String(20), nullable=False, unique=True)
-    tenant_id = Column(Integer, nullable=False)
+    tenant_id = Column(Integer, ForeignKey(Tenant.tenant_id), nullable=False)
 
     @classmethod
     def get_id(cls):
@@ -24,3 +25,4 @@ class DeviceGroup(Base):
     }
 
     FIELDS.update(Base.FIELDS)
+

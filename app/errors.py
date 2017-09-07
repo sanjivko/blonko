@@ -57,6 +57,12 @@ ERR_PASSWORD_NOT_MATCH = {
     'title': 'Password Not Match'
 }
 
+ERR_DEVICE_NOT_EXISTS = {
+    'status': falcon.HTTP_404,
+    'code': 23,
+    'title': 'Device Not Exists'
+}
+
 
 class AppError(Exception):
     def __init__(self, error=ERR_UNKNOWN, description=None):
@@ -117,6 +123,10 @@ class UserNotExistsError(AppError):
         super().__init__(ERR_USER_NOT_EXISTS)
         self.error['description'] = description
 
+class DeviceNotExistsError(AppError):
+    def __init__(self, description=None):
+        super(DeviceNotExistsError, self).__init__(ERR_DEVICE_NOT_EXISTS)
+        self.error['description'] = description
 
 class PasswordNotMatch(AppError):
     def __init__(self, description=None):

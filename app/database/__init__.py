@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine,inspect
 from sqlalchemy.orm import sessionmaker, scoped_session
 
 from app import log
@@ -16,7 +16,7 @@ def get_engine(uri):
         'pool_size': 10,
         'pool_timeout': 30,
         'max_overflow': 30,
-        'echo': config.DB_ECHO,
+        'echo': bool(config.DB_ECHO),
         'execution_options': {
             'autocommit': config.DB_AUTOCOMMIT
         }
@@ -33,3 +33,9 @@ def init_session():
 
     from app.model import Base
     Base.metadata.create_all(engine)
+
+    LOG.info(engine.table_names())
+    LOG.info("Creating all the tables.")
+
+    inspector = inspect(engine)
+    inspector.get_columns('user')

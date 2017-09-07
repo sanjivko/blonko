@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-export APP_ENV="live"
+export APP_ENV="local"
 
 function start () {
     source .venv/bin/activate
-    gunicorn -b 127.0.0.1:5000 --reload app.main:application
+    gunicorn -b 0.0.0.0:5000 --reload app.main:application
 }
 
 function stop () {
