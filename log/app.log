@@ -16,3 +16,116 @@
 [2017-08-17 10:10:43 +0000] [11011] [INFO] Connecting to database..
 [2017-08-17 10:10:48 +0000] [11011] [INFO] API Server is starting
 [2017-08-17 18:27:50 +0000] [17676] [INFO] Connecting to database..
+[2017-08-27 11:34:42 +0530] [9461] [INFO] Connecting to database..
+[2017-08-27 11:37:32 +0530] [9561] [INFO] Connecting to database..
+[2017-08-27 12:08:07 +0530] [11013] [INFO] Connecting to database..
+[2017-08-27 12:08:15 +0530] [11013] [INFO] API Server is starting
+[2017-08-27 12:08:57 +0530] [11042] [INFO] Connecting to database..
+[2017-08-27 12:09:04 +0530] [11042] [INFO] API Server is starting
+[2017-08-27 12:13:41 +0530] [11228] [INFO] Connecting to database..
+[2017-08-27 12:14:12 +0530] [11244] [INFO] Connecting to database..
+[2017-08-27 12:14:18 +0530] [11244] [INFO] API Server is starting
+[2017-08-27 12:18:17 +0530] [11389] [INFO] Connecting to database..
+[2017-08-27 12:18:24 +0530] [11389] [INFO] API Server is starting
+[2017-08-27 12:19:32 +0530] [11418] [INFO] Connecting to database..
+[2017-08-27 12:20:22 +0530] [11453] [INFO] Connecting to database..
+[2017-08-27 12:20:40 +0530] [11467] [INFO] Connecting to database..
+[2017-08-27 12:20:56 +0530] [11478] [INFO] Connecting to database..
+[2017-08-27 12:21:02 +0530] [11478] [INFO] API Server is starting
+[2017-08-28 08:32:28 +0530] [11639] [INFO] Connecting to database..
+[2017-08-28 19:55:53 +0530] [2549] [INFO] Connecting to database..
+[2017-08-28 19:56:00 +0530] [2549] [INFO] API Server is starting
+[2017-08-28 22:00:25 +0530] [5986] [INFO] Connecting to database..
+[2017-08-28 22:00:32 +0530] [5986] [INFO] API Server is starting
+[2017-08-28 22:08:43 +0530] [7792] [INFO] Connecting to database..
+[2017-08-28 22:08:50 +0530] [7792] [INFO] API Server is starting
+[2017-08-29 08:20:38 +0530] [8144] [INFO] Connecting to database..
+[2017-08-29 18:22:31 +0530] [12040] [INFO] Connecting to database..
+[2017-08-29 18:22:37 +0530] [12040] [INFO] API Server is starting
+[2017-08-29 18:26:47 +0530] [12094] [INFO] Connecting to database..
+[2017-08-29 18:26:55 +0530] [12094] [INFO] API Server is starting
+[2017-08-29 18:27:41 +0530] [12130] [INFO] Connecting to database..
+[2017-08-29 18:28:41 +0530] [12150] [INFO] Connecting to database..
+[2017-08-29 18:28:48 +0530] [12150] [INFO] API Server is starting
+[2017-08-29 18:30:19 +0530] [12181] [INFO] Connecting to database..
+[2017-08-29 18:30:27 +0530] [12181] [INFO] API Server is starting
+[2017-08-29 18:30:58 +0530] [12202] [INFO] Connecting to database..
+[2017-08-29 18:31:05 +0530] [12202] [INFO] API Server is starting
+[2017-08-29 18:31:06 +0530] [12207] [INFO] Connecting to database..
+[2017-08-29 18:31:13 +0530] [12207] [INFO] API Server is starting
+[2017-08-29 18:31:14 +0530] [12219] [INFO] Connecting to database..
+[2017-08-29 18:31:22 +0530] [12219] [INFO] API Server is starting
+[2017-08-29 18:31:38 +0530] [12231] [INFO] Connecting to database..
+[2017-08-29 18:31:45 +0530] [12231] [INFO] API Server is starting
+[2017-08-29 18:32:01 +0530] [12242] [INFO] Connecting to database..
+[2017-08-29 18:32:08 +0530] [12242] [INFO] API Server is starting
+[2017-08-29 18:34:24 +0530] [12289] [INFO] Connecting to database..
+[2017-08-29 18:34:39 +0530] [12294] [INFO] Connecting to database..
+[2017-08-29 18:34:55 +0530] [12300] [INFO] Connecting to database..
+[2017-08-29 18:35:02 +0530] [12300] [INFO] API Server is starting
+[2017-08-29 18:36:13 +0530] [12323] [INFO] Connecting to database..
+[2017-08-29 18:36:21 +0530] [12323] [INFO] API Server is starting
+[2017-08-29 18:38:05 +0530] [12430] [INFO] Connecting to database..
+[2017-08-29 18:38:12 +0530] [12430] [INFO] API Server is starting
+[2017-08-29 18:50:45 +0530] [12755] [INFO] Connecting to database..
+[2017-08-29 18:51:04 +0530] [12778] [INFO] Connecting to database..
+[2017-08-29 18:51:10 +0530] [12778] [INFO] Creating all the tables.
+[2017-08-29 18:51:10 +0530] [12778] [INFO] API Server is starting
+[2017-08-29 18:51:40 +0530] [12803] [INFO] Connecting to database..
+[2017-08-29 18:51:46 +0530] [12803] [INFO] Creating all the tables.
+[2017-08-29 18:51:46 +0530] [12803] [INFO] API Server is starting
+[2017-08-29 18:53:19 +0530] [12832] [INFO] Connecting to database..
+[2017-08-29 18:53:26 +0530] [12832] [INFO] Creating all the tables.
+[2017-08-29 18:53:26 +0530] [12832] [INFO] API Server is starting
+[2017-08-29 18:54:18 +0530] [12865] [INFO] Connecting to database..
+[2017-08-29 18:54:24 +0530] [12865] [INFO] Creating all the tables.
+[2017-08-29 18:54:24 +0530] [12865] [INFO] API Server is starting
+[2017-08-29 18:55:53 +0530] [12929] [INFO] Connecting to database..
+[2017-08-29 18:56:00 +0530] [12929] [INFO] Creating all the tables.
+[2017-08-29 18:56:00 +0530] [12929] [INFO] API Server is starting
+[2017-08-29 19:11:10 +0530] [13203] [INFO] Connecting to database..
+[2017-08-29 19:11:17 +0530] [13203] [INFO] Creating all the tables.
+[2017-08-29 19:11:17 +0530] [13203] [INFO] API Server is starting
+[2017-08-29 19:17:57 +0000] [13526] [INFO] Connecting to database..
+[2017-08-29 19:18:04 +0000] [13526] [INFO] Creating all the tables.
+[2017-08-29 19:18:04 +0000] [13526] [INFO] API Server is starting
+[2017-08-29 19:21:32 +0000] [13659] [INFO] Connecting to database..
+[2017-08-29 19:21:44 +0000] [13659] [INFO] Creating all the tables.
+[2017-08-29 19:21:44 +0000] [13659] [INFO] API Server is starting
+[2017-08-29 19:23:03 +0530] [13738] [INFO] Connecting to database..
+[2017-08-29 19:23:10 +0530] [13738] [INFO] Creating all the tables.
+[2017-08-29 19:23:10 +0530] [13738] [INFO] API Server is starting
+[2017-08-29 19:26:13 +0530] [13787] [INFO] Connecting to database..
+[2017-08-29 19:26:20 +0530] [13787] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:26:20 +0530] [13787] [INFO] Creating all the tables.
+[2017-08-29 19:26:20 +0530] [13787] [INFO] API Server is starting
+[2017-08-29 19:36:15 +0530] [14054] [INFO] Connecting to database..
+[2017-08-29 19:36:22 +0530] [14054] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:36:22 +0530] [14054] [INFO] Creating all the tables.
+[2017-08-29 19:36:22 +0530] [14054] [INFO] API Server is starting
+[2017-08-29 19:42:23 +0530] [14180] [INFO] Connecting to database..
+[2017-08-29 19:42:31 +0530] [14180] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:42:31 +0530] [14180] [INFO] Creating all the tables.
+[2017-08-29 19:42:31 +0530] [14180] [INFO] API Server is starting
+[2017-08-29 19:43:01 +0530] [14195] [INFO] Connecting to database..
+[2017-08-29 19:43:08 +0530] [14195] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:43:08 +0530] [14195] [INFO] Creating all the tables.
+[2017-08-29 19:43:12 +0530] [14195] [INFO] API Server is starting
+[2017-08-29 19:44:19 +0530] [14248] [INFO] Connecting to database..
+[2017-08-29 19:44:27 +0530] [14248] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:44:27 +0530] [14248] [INFO] Creating all the tables.
+[2017-08-29 19:44:31 +0530] [14248] [INFO] API Server is starting
+[2017-08-29 19:45:09 +0530] [14292] [INFO] Connecting to database..
+[2017-08-29 19:45:16 +0530] [14292] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:45:16 +0530] [14292] [INFO] Creating all the tables.
+[2017-08-29 19:45:20 +0530] [14292] [INFO] API Server is starting
+[2017-08-29 19:46:28 +0530] [14382] [INFO] Connecting to database..
+[2017-08-29 19:46:35 +0530] [14382] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:46:35 +0530] [14382] [INFO] Creating all the tables.
+[2017-08-29 19:46:39 +0530] [14382] [INFO] API Server is starting
+[2017-08-29 19:48:54 +0530] [14456] [INFO] Connecting to database..
+[2017-08-29 19:49:02 +0530] [14456] [INFO] ['student', 'codes', 'user', 'tenant', 'users', 'levels']
+[2017-08-29 19:49:02 +0530] [14456] [INFO] Creating all the tables.
+[2017-08-29 19:49:05 +0530] [14456] [INFO] API Server is starting
+[2017-08-29 19:50:07 +0530] [14527] [INFO] Connecting to database..
+[2017-08-29 19:50:58 +0530] [14584] [INFO] Connecting to database..

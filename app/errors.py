@@ -98,13 +98,13 @@ class AppError(Exception):
 
 class InvalidParameterError(AppError):
     def __init__(self, description=None):
-        super().__init__(ERR_INVALID_PARAMETER)
+        super(InvalidParameterError, self).__init__(ERR_INVALID_PARAMETER)
         self.error['description'] = description
 
 
 class DatabaseError(AppError):
     def __init__(self, error, args=None, params=None):
-        super().__init__(error)
+        super(DatabaseError, self).__init__(error)
         obj = OrderedDict()
         obj['details'] = ', '.join(args)
         obj['params'] = str(params)
@@ -113,14 +113,14 @@ class DatabaseError(AppError):
 
 class NotSupportedError(AppError):
     def __init__(self, method=None, url=None):
-        super().__init__(ERR_NOT_SUPPORTED)
+        super(NotSupportedError, self).__init__(ERR_NOT_SUPPORTED)
         if method and url:
             self.error['description'] = 'method: %s, url: %s' % (method, url)
 
 
 class UserNotExistsError(AppError):
     def __init__(self, description=None):
-        super().__init__(ERR_USER_NOT_EXISTS)
+        super(UserNotExistsError, self).__init__(ERR_USER_NOT_EXISTS)
         self.error['description'] = description
 
 class DeviceNotExistsError(AppError):
@@ -130,11 +130,11 @@ class DeviceNotExistsError(AppError):
 
 class PasswordNotMatch(AppError):
     def __init__(self, description=None):
-        super().__init__(ERR_PASSWORD_NOT_MATCH)
+        super(PasswordNotMatch, self).__init__(ERR_PASSWORD_NOT_MATCH)
         self.error['description'] = description
 
 
 class UnauthorizedError(AppError):
     def __init__(self, description=None):
-        super().__init__(ERR_AUTH_REQUIRED)
+        super(UnauthorizedError, self).__init__(ERR_AUTH_REQUIRED)
         self.error['description'] = description

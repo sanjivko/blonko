@@ -34,7 +34,7 @@ Linux
 ------
 In Linux, just set `APP_ENV` to run in live mode.
 ```shell
-export APP_ENV=live
+export APP_ENV=local
 ./bin/run.sh start
 ```
 

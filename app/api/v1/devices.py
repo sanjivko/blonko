@@ -71,6 +71,7 @@ class Collection(BaseResource):
             device.device_int_id = device_req['device_int_id']
             device.device_msisdn = device_req['device_msisdn']
             action = device_req['action'] if 'action' in device_req else None
+            LOG.info("Action: '%s'" % action)
             if action == "INIT":
                 """
                     For Action INIT create an entry in the Device DB
@@ -79,9 +80,10 @@ class Collection(BaseResource):
                 device.device_group_id = 1
                 device.device_state = "INIT"
                 session.add(device)
-            elif action == "ONBORAD":
+            elif action == "ONBOARD":
                 # See if the device exists in the db
                 LOG.info("Action = ONBOARD")
+                Device.find_device_and_update_state(session, device_req['device_msisdn'], action)
 
             self.on_success(res, None)
         else:
