@@ -28,6 +28,8 @@ class App(falcon.API):
         self.add_route('/v1/devices/', devices.Collection())
         self.add_route('/v1/devices/{key}', devices.Item())
 
+        self.add_route('/v1/devices/notifDest/{key}', devices.NotifHandle)
+
         self.add_error_handler(AppError, AppError.handle)
 
 init_session()
@@ -37,5 +39,5 @@ application = App(middleware=middleware)
 
 if __name__ == "__main__":
     from wsgiref import simple_server
-    httpd = simple_server.make_server('127.0.0.1', 5000, application)
+    httpd = simple_server.make_server('0.0.0.0', 5000, application)
     httpd.serve_forever()

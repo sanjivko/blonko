@@ -103,6 +103,24 @@ class Collection(BaseResource):
     def on_put(self, req, res):
         pass
 
+class NotifHandle(BaseResource):
+    """
+    Handle for endpoint: /v1/devices/notifDest/<transact id>
+
+    POST http://blonko.com:8080/3gpp_t8_nidd/v1/SmartStreetLighting@blr.com/configurations/123454534564
+    {
+        "ttrId": 123456789,
+        "tltrId": 123454534564,
+        "externalId": "StreetLight-BLR-12.9399178,77.6895246",
+        "status":0,
+        "maximumPacketSize":80
+    }
+    """
+
+    #@falcon.before(validate_device_create)
+    def on_post(self, req, res, key):
+        print ("Got notif from SCEF")
+        self.on_success(res, None)
 
 class Item(BaseResource):
     """
